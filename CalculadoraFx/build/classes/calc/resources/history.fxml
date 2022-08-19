@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calc.controllers.HistoryController">
+   <children>
+      <BorderPane layoutX="9.0" layoutY="9.0" prefHeight="382.0" prefWidth="584.0">
+         <center>
+            <TitledPane animated="false" collapsible="false" prefHeight="392.0" prefWidth="584.0" text="Historial de calculadora" BorderPane.alignment="CENTER">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ListView fx:id="historyList" layoutX="14.0" layoutY="14.0" prefHeight="336.0" prefWidth="560.0" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </TitledPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
